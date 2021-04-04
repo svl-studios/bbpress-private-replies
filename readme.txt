@@ -4,9 +4,10 @@ Plugin URI: http://pippinsplugins.com/bbpress-private-replies
 Contributors: mordauk, corsonr
 Donate link: http://pippinsplugins.com/support-the-site
 Tags: bbPress, private replies, replies, Forums, mordauk, Pippin Williamson, pippinsplugins, Remi Corson, corsonr
-Requires at least: 3.2
-Tested up to: 4.7
-Stable Tag: 1.3.3
+Requires at least: 5.0
+Tested up to: 5.7
+Requires PHP: 7.4
+Stable Tag: 1.3.4
 
 A simple plugin to allow your bbPress users to mark their replies as private.
 
@@ -42,6 +43,11 @@ Would you like to help translate the plugin into more languages? [Contact Pippin
 
 
 == Changelog ==
+
+= 1.3.4 =
+* PHP 7 and 8 compaatibility.
+* WP 5.7 compataibility.
+* WordPress Coding Standards applied, including escaping, sanitizing, and nonces.
 
 = 1.3.3 =
 
